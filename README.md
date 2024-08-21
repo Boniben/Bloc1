@@ -1,4 +1,7 @@
 # Bloc1-2024
+## concept git
 ## Base de la programation
   - HTTP
-  - Serveur web
+  - Serveurs web
+  - Update
+  
