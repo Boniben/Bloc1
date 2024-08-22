@@ -1,1 +1,5 @@
-1 - Méthodes GET et POST
+# 1 - Méthodes GET et POST
+
+## GET
+	-
+## POST 
