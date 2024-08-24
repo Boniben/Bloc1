@@ -13,6 +13,7 @@ Contrairement à GET, POST permet d'envoyer un nombre illimité d'information ta
 # 2 - Comparaison des Méthodes
 
 |       | GET | POST |
+|:------|:---------:|----------:|
 |les formats|type .txt|tout les formats|
 |taille de donnée|limité (2000carractere)|illimité|
 |spécificité|implémente l'url|agit a partir du body du network|
