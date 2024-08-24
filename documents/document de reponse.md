@@ -22,10 +22,21 @@ La fonction Get est retrouvé lorsque l'on clique sur le bouton "deposer une ann
 |les formats|type .txt|tout les formats|
 |taille de donnée|limité (2000carractere)|illimité|
 |spécificité|implémente l'url|agit a partir du body du network|
+|sécurité|faible car visible|plus importante que get|
+
 
 # 3 -Extensible
 
 En quoi le protocole http est il extensible ?
-Cela vient du fait qu'il peut évoluer sans avoir besoin de nouvelle version.
-Les entête "headers" qui integre, les variables peuvent s'implementer en fonction des besoins.
+	Cela vient du fait qu'il peut évoluer sans avoir besoin de nouvelle version.
+	Les entête "headers" qui integre, les variables peuvent s'implementer en fonction des besoins.
+	
+# 4 - Sans état
+
+Explication :
+	On parle que Http est sans etat car il n'y a pas d'etat dans le protocole http. Il n'y a pas de suivi entre 2 requetes sur le serveur, l'information du client n'est pas présente, a chaque réponse de requete le serveur réidentifie la personne via les cookies et/ou l'id de session.
+	[shema explicatif des interraction avec le serveur et le client qui explique le sans etat](https://docs.google.com/document/d/1JLvWOxeNOCab81PBlJ6wduIFFk0TPR5RLJqAxNqsRd4/edit)
+	
+	
+	
 
