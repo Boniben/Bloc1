@@ -39,36 +39,40 @@ Explication :
 	
 # 5 – URL
 
-### 1. **Protocole**
+Décomposition de l'adresse : https://www.test.fr:8080/path/to/resource?query=param#fragment
+
+## . **Protocole**
    - **https://**
    - Le protocole spécifie la méthode de communication entre le navigateur et le serveur. Les plus courants sont `http` et `https` (sécurisé).
 
-### 2. **Sous-domaine ou api**
+## . **Sous-domaine ou api**
    - **www.**
    - Le sous-domaine est une partie facultative de l'URL. Il est souvent utilisé pour distinguer différentes sections d'un site web.
 
-### 3. **Nom de domaine ou DNS**
+## . **Nom de domaine ou DNS**
    - **example**
    - Le nom de domaine identifie le site web. C'est l'adresse principale du site que vous souhaitez visiter.
 
-### 4. **zone DNS**
+## . **zone DNS**
    - **.com ou .fr**
    - C'est la localisation du DNS
-### 4. **Port**
+## . **Port**
    - **:8080**
    - Le port est un autre composant optionnel. Par défaut, le port pour `http` est 80 et pour `https` c'est 443, mais vous pouvez spécifier un port différent si nécessaire.
 
-### 5. **Chemin**
+## . **Chemin ou path**
    - **/path/to/resource**
    - Le chemin indique l'emplacement spécifique d'une ressource sur le serveur, comme une page ou un fichier.
 
-### 6. **Paramètres de requête**
+## . **Paramètres de requête ou query string**
    - **?query=param**
    - Les paramètres de requête sont des paires clé-valeur qui sont passées au serveur pour fournir des informations supplémentaires ou filtrer les données.
 
-### 7. **Fragment**
+## . **Fragment**
    - **#fragment**
    - Le fragment est une partie optionnelle de l'URL qui pointe vers une section spécifique d'une page.
+
+
 
 
 	
