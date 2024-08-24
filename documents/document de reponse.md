@@ -1,6 +1,5 @@
 # 1 - Méthodes GET et POST
 
-<<<<<<< HEAD
 ## Get 
 Get est une requête qui permet d'obtenir une reponse des serveurs.
 	Elle permet d'acceder aux informations mais pas d'en entrée de nouvelle car elle est peu sécurisé.
@@ -11,9 +10,9 @@ Get est une requête qui permet d'obtenir une reponse des serveurs.
 POST est une autre requete qui permet également d'obtenir des réponses des serveurs.
 Contrairement à GET, POST permet d'envoyer un nombre illimité d'information tant en taille mais aussi en format.
 
+# 2 - Comparaison des Méthodes
 
-=======
-## GET
-	-
-## POST 
->>>>>>> db376d419d9745fca2bb515ab8176999a72b562d
+|       | ---GET--- | ---POST-- |
+|les formats|type .txt|-tout les formats-|
+|---taille de donnée----|----limité (2000carractere)-------|----illimité-------|
+|---spécificité----|-implémente l'url---|----agit a partir du body du network-------|
