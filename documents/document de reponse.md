@@ -5,8 +5,8 @@ Get est une requête qui permet d'obtenir une reponse des serveurs.
 	Elle permet d'acceder aux informations mais pas d'en entrée de nouvelle car elle est peu sécurisé.
 	Les requetes Get sont limité en taille et en format texte essentiellement et implémente les URL.
 	
-	En exmple, cliquer sur un bouton du site "leboncoin" tels que celui de l'onglet voiture, fait parti des requetes GET.
-	https://www.leboncoin.fr/voitures/offres?locations
+	En exemple, cliquer sur un bouton du site "leboncoin" tels que celui de l'onglet voiture, fait parti des requetes GET.
+https://www.leboncoin.fr/voitures/offres?locations
 	Ecrire ferrari 458 dans la recherche textuel est egalement une requete GET
 https://www.leboncoin.fr/recherche?category=2&text=ferrari+458
 
