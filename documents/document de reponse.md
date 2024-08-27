@@ -73,6 +73,27 @@ Décomposition de l'adresse : https://www.test.fr:8080/path/to/resource?query=pa
    - Le fragment est une partie optionnelle de l'URL qui pointe vers une section spécifique d'une page.
 
 
+# 6 - Codes Status
+
+## 1. Les réponses informatives (100 à 199)
+	exemple: --"102 processing"-- correspond à l'information que le serveur à bien reçu la requete mais que la réponse n'est pas encore disponible.
+
+## 2. Les réponses de succès (200-299)
+	exemple: --"200-- ok" correspond a bien fonctionné et la ressources a bien été transmise
+	
+## 3. les messages de redirection (300 à 399)
+	exemple: --"302 found"-- Veut dire que la ressource demandée a été modifiée temporairement, cela pourra fonctionner ultérieurement avec le meme URL.
+
+
+## 4. Les erreurs du clients (400 à 499)
+	exemple: --"404 not found"-- Cela arrive régulierement et se traduit par "le serveur n'a pas trouvé la ressource"
+
+## 5. Les erreurs du serveur (500 à 599)
+	exemple: --"504 gateway timeout"-- C'est la réponse que l'on obtient quand un serveur servant de passerelle n'a pas eu de réponse dans les temps.
+	
+	
+
+
 
 
 	
