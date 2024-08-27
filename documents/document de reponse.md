@@ -15,6 +15,9 @@ En exemple, toujours sur le site "leboncoin" déposer une annonce requiere d'aut
 La fonction Get est retrouvé lorsque l'on clique sur le bouton "deposer une annonce" puis lorsque l'on rentre le texte ou que l'on veut valider les informations de la mise en vente, la requete deployé est du [POST](https://www.leboncoin.fr/deposer-une-annonce)
 
 
+
+
+
 # 2 - Comparaison des Méthodes
 
 |       | GET | POST |
@@ -25,17 +28,26 @@ La fonction Get est retrouvé lorsque l'on clique sur le bouton "deposer une ann
 |sécurité|faible car visible|plus importante que get|
 
 
+
+
+
 # 3 -Extensible
 
 En quoi le protocole http est il extensible ?
 	Cela vient du fait qu'il peut évoluer sans avoir besoin de nouvelle version.
 	Les entête "headers" qui integre, les variables peuvent s'implementer en fonction des besoins.
 	
+	
+	
+	
 # 4 - Sans état
 
 Explication :
 	On parle que Http est sans etat car il n'y a pas d'etat dans le protocole http. Il n'y a pas de suivi entre 2 requetes sur le serveur, l'information du client n'est pas présente, a chaque réponse de requete le serveur réidentifie la personne via les cookies et/ou l'id de session.
 	[shema explicatif des interraction avec le serveur et le client qui explique le sans etat](https://docs.google.com/document/d/1JLvWOxeNOCab81PBlJ6wduIFFk0TPR5RLJqAxNqsRd4/edit)
+	
+	
+	
 	
 # 5 – URL
 
@@ -73,23 +85,26 @@ Décomposition de l'adresse : https://www.test.fr:8080/path/to/resource?query=pa
    - Le fragment est une partie optionnelle de l'URL qui pointe vers une section spécifique d'une page.
 
 
+
+
+
 # 6 - Codes Status
 
 ## 1. Les réponses informatives (100 à 199)
-	exemple: --"102 processing"-- correspond à l'information que le serveur à bien reçu la requete mais que la réponse n'est pas encore disponible.
+	*Exemple*: **102 processing** correspond à l'information que le serveur à bien reçu la requete mais que la réponse n'est pas encore disponible.
 
 ## 2. Les réponses de succès (200-299)
-	exemple: --"200-- ok" correspond a bien fonctionné et la ressources a bien été transmise
+	*Exemple*: **200 ok** correspond a bien fonctionné et la ressources a bien été transmise
 	
 ## 3. les messages de redirection (300 à 399)
-	exemple: --"302 found"-- Veut dire que la ressource demandée a été modifiée temporairement, cela pourra fonctionner ultérieurement avec le meme URL.
+	*Exemple*: **302 found** Veut dire que la ressource demandée a été modifiée temporairement, cela pourra fonctionner ultérieurement avec le meme URL.
 
 
 ## 4. Les erreurs du clients (400 à 499)
-	exemple: --"404 not found"-- Cela arrive régulierement et se traduit par "le serveur n'a pas trouvé la ressource"
+	*Exemple*: **404 not found** Cela arrive régulierement et se traduit par "le serveur n'a pas trouvé la ressource"
 
 ## 5. Les erreurs du serveur (500 à 599)
-	exemple: --"504 gateway timeout"-- C'est la réponse que l'on obtient quand un serveur servant de passerelle n'a pas eu de réponse dans les temps.
+	*Exemple*: **504 gateway timeout** C'est la réponse que l'on obtient quand un serveur servant de passerelle n'a pas eu de réponse dans les temps.
 	
 	
 
