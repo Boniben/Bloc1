@@ -112,8 +112,14 @@ Exemple: 504 gateway timeout C'est la réponse que l'on obtient quand un serveur
 La negociation de contenu http fait référence à l'interraction entre le client et le serveur. Par exemple le client va réaliser une demande via l'url qui va contenir une requete de langue ou de format ou nimporte quel spécificité et le serveur va devoir au vu de cette spécificité donné la bonne au réponse au serveur.
 Si la requete demandé est réalisable alors le serveur répondra 200 OK et affichera la ressources demandé, si au contraire la réponse n'existe pas alors il pourrait afficher 404 not found.
 Pour illustrer ses propos la requete : https://www.amazon.fr/ le site d'amazon va s'afficher en francais mais ce sera surtout une version propre a la version française qui sera affiché. Si au contraire je suis belge et que par mecanisme je veux écrire https://www.amazon.be soit la zone DNS atribué aux url belge je tombe alors sur un tout autre site.
-reponse a retravailler car cela peut etre considerer comme la différence entre une addresse et une autre alors que la negociation est bien le choix de variable dans le meme serveur 
 
+Reponse a retravailler car cela peut etre considerer comme la différence entre une addresse et une autre alors que la negociation est bien le choix de variable dans le meme serveur.
+Donc c'est le même principe explicité avant mais sur un serveur identique qui va simplement selectionner la langue par exemple. Faire le choix de la réponse attendu avec les informations présente dans l'url que l'utilisateur ou le client (via les cookies) a imcrementé et qui va imposer au serveur un choix de réponse. Cela peut fonctionner avec la langue, mais aussi l'environnement de travail par exemple le  
+
+
+
+# 8 – Installation Apache & configuration
+Je n'arrive pas a finir de télécharger xchamp sur le pc, car pas admin ou pas assez de droit sur la session du domain INFO
 
 
 
