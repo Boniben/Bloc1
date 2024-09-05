@@ -132,7 +132,25 @@ Je n'arrive pas a finir de télécharger xchamp sur le pc, car pas admin ou pas 
 
 ![question 9 image TD1](https://github.com/user-attachments/assets/e7d48ce3-f29d-496b-82b1-4e55aacfb95e)
 
+Travail sur les virtualhost
+1- trouver la racine d'apache dans les fichier de xampp
+La racine se trouve dans le fichier Htdoc
 
+2-ajouter un fichier dans la racine
+ici bloc1-test3
+
+note: ici nous somme autorisé a le faire mais en production cela doit impérativement etre bloqué sinon nimporte qui peut modifier les fichiers racine
+
+ici nous avons créer un virtualhost
+
+c'est très utile pour travailler avec github
+-cela permet de créer et configuré des sites
+-permet de délocaliser notre travail
+
+Si on va encore plus loin on se rend compte que l'utilisation de xampp est également compliqué car xampp est un document admin et il peut etre exécuté, modifié par d'autres utilisateur utilsant l'ordinateur
+
+
+3-
 
 
 	
