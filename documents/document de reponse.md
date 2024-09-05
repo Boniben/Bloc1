@@ -45,7 +45,8 @@ En quoi le protocole http est il extensible ?
 Explication :
 	On parle que Http est sans etat car il n'y a pas d'etat dans le protocole http. Il n'y a pas de suivi entre 2 requetes sur le serveur, l'information du client n'est pas présente, a chaque réponse de requete le serveur réidentifie la personne via les cookies et/ou l'id de session.
 	[shema explicatif des interraction avec le serveur et le client qui explique le sans etat](https://docs.google.com/document/d/1JLvWOxeNOCab81PBlJ6wduIFFk0TPR5RLJqAxNqsRd4/edit)
-	https://drive.google.com/open?id=1Yle0iVGGSLNE5K5CKZOAStMjRl1Nq8z-SD1bZinmCFw&usp=drive_copy
+![capture d'écrant du shema](https://github.com/user-attachments/assets/37615fd2-fd75-4058-8a11-640c5573e5f1)
+
 	
 	
 	
