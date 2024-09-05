@@ -117,7 +117,7 @@ Pour illustrer ses propos la requete : https://www.amazon.fr/ le site d'amazon v
 
 
 ~~Reponse a retravailler car cela peut etre considerer comme la différence entre une addresse et une autre alors que la negociation est bien le choix de variable dans le meme serveur.
-Donc c'est le même principe explicité avant mais sur un serveur identique qui va simplement selectionner la langue par exemple. Faire le choix de la réponse attendu avec les informations présente dans l'url que l'utilisateur ou le client (via les cookies) a imcrementé et qui va imposer au serveur un choix de réponse. Cela peut fonctionner avec la langue, mais aussi l'environnement de travail par exemple le  ~~
+Donc c'est le même principe explicité avant mais sur un serveur identique qui va simplement selectionner la langue par exemple. Faire le choix de la réponse attendu avec les informations présente dans l'url que l'utilisateur ou le client (via les cookies) a imcrementé et qui va imposer au serveur un choix de réponse. Cela peut fonctionner avec la langue, mais aussi l'environnement de travail par exemple le~~
 
 *correction*
 En faisant une requete précise dans un URL via un client, comme la langue ou d'autre parametre qui dépendent du client. Le serveur va répondre la réponse adapté via un algo.
@@ -126,6 +126,10 @@ En faisant une requete précise dans un URL via un client, comme la langue ou d'
 
 # 8 – Installation Apache & configuration
 Je n'arrive pas a finir de télécharger xchamp sur le pc, car pas admin ou pas assez de droit sur la session du domain INFO
+
+# 9 – CURL
+
+![question 9 image TD1](https://github.com/user-attachments/assets/e7d48ce3-f29d-496b-82b1-4e55aacfb95e)
 
 
 
