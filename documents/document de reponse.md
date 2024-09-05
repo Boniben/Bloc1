@@ -121,6 +121,7 @@ Donc c'est le même principe explicité avant mais sur un serveur identique qui 
 
 *correction*
 En faisant une requete précise dans un URL via un client, comme la langue ou d'autre parametre qui dépendent du client. Le serveur va répondre la réponse adapté via un algo.
+![cap ecran negociation de contenu](https://github.com/user-attachments/assets/9edbd7dd-101b-4470-b994-aa020184ecb4)
 
 
 
