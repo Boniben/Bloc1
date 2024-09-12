@@ -1,15 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-	<meta charset=
-
-
-
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web local</title>
 </head>
-
+<body>
+    <h1>TDs web</h1>
 
 <h1> Mentions légales</h1> 
 
@@ -17,15 +15,15 @@
 
 <p>Ce site (MaBoutique.fr) est édité par la société WEBAGENCY, SARL (société à responsabilité limitée) immatriculée au
 Registre du Commerce et des Sociétés de Caen sous le numéro RCS CAEN XXX YYY ZZZ, numéro de TVA Intra
-FR00501000000.<br><br>
-Coordonnées : <strong>WebAgency</strong> SARL - 11 rue vide - 14000 Caen</p>
+FR00501000000.<br>
+Coordonnées : WebAgency SARL - 11 rue vide - 14000 Caen</p>
 
 <h2>Hébergement </h2>
 
-<p>Ce site est hébergé par la société <strong>ONLINE SAS</strong>, SAS (société par actions simplifiées) au capital de 214 410,50
+<p>Ce site est hébergé par la société ONLINE SAS, SAS (société par actions simplifiées) au capital de 214 410,50
 Euros, filiale du groupe Iliad, immatriculée au Registre du Commerce et des Sociétés de Paris sous le
-numéro RCS PARIS B 433 115 904, numéro de TVA FR35433115904.<br><br>
-Coordonnées : <strong>Online SAS</strong> - BP 438 - 75366 Paris Cedex 08</p>
+numéro RCS PARIS B 433 115 904, numéro de TVA FR35433115904.<br>
+Coordonnées : Online SAS - BP 438 - 75366 Paris Cedex 08</p>
 
 
 <h2>Confidentialité </h2>
@@ -82,3 +80,5 @@ Vous pouvez gérer ces cookies via le lien suivant : support.google.com</p>
 <p>Les cartes présentes sur ce site sont créées à partir des données © contributeurs OpenStreetMap, publiées
 sous licence ODBL</p>
 
+</body>
+</html>
