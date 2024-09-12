@@ -1,17 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-	<meta charset=
-
-
-
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web local</title>
 </head>
-
-
-<h1> Mentions légales</h1> 
+<body>
+    <h1> Mentions légales</h1> 
 
 <h2> Édition du site</h2>
 
@@ -82,3 +78,5 @@ Vous pouvez gérer ces cookies via le lien suivant : support.google.com</p>
 <p>Les cartes présentes sur ce site sont créées à partir des données © contributeurs OpenStreetMap, publiées
 sous licence ODBL</p>
 
+</body>
+</html>
