@@ -1,6 +1,25 @@
 h2{
 	color: green;
-		
+	text-decoration: underline;
+	
 }
 
+body{
+	margin: auto;
+	max-width: 800px;
 
+	
+
+}
+a{
+	color: #4DC7F1;
+	text-decoration: none;
+	
+}
+
+p span{
+	color: #EA9A9A;
+	font-weight: bold;
+	
+	
+}
