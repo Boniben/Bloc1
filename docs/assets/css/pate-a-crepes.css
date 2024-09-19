@@ -1,7 +1,19 @@
-h1{
+
+
+span{
+	color:#A54C1F;
 	
 	
-	
-	
+}
+
+div{
+	background-color:#F7F7F7;
+}
+
+body{
+
+	margin: auto;
+	max-width: 800px;
+
 	
 }
