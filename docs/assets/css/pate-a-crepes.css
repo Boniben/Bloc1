@@ -1,0 +1,42 @@
+
+
+span{
+	color:#A54C1F;
+	
+	
+}
+
+div{
+	background-color:#F7F7F7;
+}
+
+body{
+
+	margin: auto;
+	max-width: 800px;
+
+	
+}
+ol{
+	background-color:#F7F7F7;
+	margin-left:10px;
+	padding-left:20px;
+}
+
+ul{
+	background-color:#F7F7F7;
+	margin-left:10px;
+	padding-left:20px;
+	
+}
+
+#bordertext{
+	border-top:1px solid;
+	border-bottom:1px solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#F7F7F7;
+	
+	
+}
+	
