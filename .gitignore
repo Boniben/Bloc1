@@ -1,1 +1,3 @@
-.pdf
+#ignorer tous les fichiers de travail pdf
+
+*.pdf
