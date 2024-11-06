@@ -23,12 +23,13 @@ body {
 li {
     border: 3px solid black; /* Cadre épais en noir */
     padding: 10px 20px; /* Ajoute de l'espace autour du texte */
-    background-color: #1f9c41; /* Couleur de fond du bouton */
+    background-color: #ffffff; /* Couleur de fond du bouton */
     cursor: pointer; /* Change le curseur au survol */
     margin: 10px; /* Espace entre les boutons */
     display: inline-block; /* Permet le centrage avec margin auto */
     color:white;
 
-
 }
+
+
 
