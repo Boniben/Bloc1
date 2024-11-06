@@ -7,8 +7,9 @@
 - [Update]
 
 ## 📖 TD2 base de program web
-- [TD2](document/TD1.md)
+- [TD2]
     - [Mentions legales 1](docs/pages/mentions-legales-1.html)
     - [Mentions legales 2](docs/pages/mentions-legales-2.html)
     - [Mentions legales 3](docs/pages/mentions-legales-3.html)
     - [Pate à crepes](docs/pages/pate-a-crepes.html)
+    - [Statut juridiques](docs/pages/statut-juriques.html)
